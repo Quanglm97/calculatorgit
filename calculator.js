@@ -1,22 +1,3 @@
-/*class Sum {
-
-     sum(a, b) {
-         return a+b ;
-    }
-}*/
-
-    
-
-/*
-
-class calcuator {
-
-    funtion() {
-        let s =new Sum();
-        s.sum(4, 7)
-
-    }
-}*/
 function sum (a, b) {
     return a + b;
 }

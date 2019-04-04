@@ -1,5 +1,4 @@
 var fs = require('fs');
-var txt = require("./text.txt")
 
 function readFile(path){
     return new Promise ((reject,resolve)=>{

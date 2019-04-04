@@ -30,7 +30,7 @@ readFile('text.txt').then((result)=> result
 ).catch((err)=>{
     console.log(err);
 })
-writeFile('text.txt').then((result)=>result
+writeFile('text.txt','Hello world').then((result)=>result
 ).catch((err)=>{
     console.log(err);
 })

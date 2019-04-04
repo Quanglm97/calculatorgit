@@ -13,9 +13,9 @@ function readFile(path){
     })
 }
 
-function appendFile(path){
+function writeFile(path){
     return new Promise ((resolve, reject)=>{
-        fs.appendFile(path, data, (err)=>{
+        fs.writeFile(path, data, (err)=>{
             if(err){
                 reject(err);
             }else{
@@ -30,7 +30,7 @@ readFile('text.txt').then((result)=> result
 ).catch((err)=>{
     console.log(err);
 })
-appendFile('text.txt').then((result)=>result
+writeFile('text.txt').then((result)=>result
 ).catch((err)=>{
     console.log(err);
 })

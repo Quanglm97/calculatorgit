@@ -1,7 +1,5 @@
 module.exports = {
 
-    SQL :{
-
     client     : 'mysql',
     connection : {
         host     : 'localhost',
@@ -9,5 +7,5 @@ module.exports = {
         password : 'melodyyy',
         database : 'melody'
      }
-    }
+    
 };

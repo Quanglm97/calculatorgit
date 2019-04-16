@@ -1,7 +1,7 @@
 const nunjucks      = require('nunjucks');
 const Router        = require('koa-router');
 let router          = new Router();
-const configuration = require ('./knex')['SQL'];
+const configuration = require ('./knex');
 const knex          = require ('knex') (configuration);
 
 router.get('/search/:name', async (context,next) =>{
